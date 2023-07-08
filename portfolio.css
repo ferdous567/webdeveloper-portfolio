@@ -162,5 +162,25 @@ font-weight: 700;
 }
 .download-cv{
     text-align: center;
-    
+
+}
+/* footer style */
+footer{
+    display: flex;
+    background: #d3d2d2;
+    padding: 130px 200px;
+    margin-top: 100px;
+    gap: 100px;
+}
+.footer-col{
+    width: 50%;
+}
+.contact input, textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #fff;
+    border: 0;
 }
