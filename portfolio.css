@@ -24,8 +24,8 @@ body{
 }
 .section-description{
     color: #757575;
-    font-family: Open Sans;
-    font-size: 18px;
+    font-family: normal;
+    font-size: 20px;
 }
 /* nav related styles */
 nav{
@@ -49,6 +49,7 @@ align-items: center;
 }
 nav li{
     margin-right: 50px;
+    
 }
 nav a{
     text-decoration: none;
@@ -100,4 +101,16 @@ main{
     background-color: #e7ccb9;
     margin: 130px 0;
 
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-info{
+    text-align: center;
+
+}
+#what-i-do-descr{
+    padding: 30px 150px;
 }
